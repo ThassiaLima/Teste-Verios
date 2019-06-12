@@ -1,0 +1,27 @@
+A vending machine é uma máquina de vendas de doces e refrigerantes, e essa aplicação tem como objetivo automatizar o processo de devolução de troco.
+
+Funções:
+mostrarItem () - Apresenta uma mensagem com nome do produto e seus respectivos valores.
+
+efetuarPagamento() - Apresenta uma mensagem  contendo as notas aceitas pela máquina e um campo para que o cliente digite a nota que deseja inserir.
+
+
+Constantes:
+produtos - Contém todos os produtos que são vendidos pela v.machine e seus respectivos valores.
+
+Variavel:
+opcao - Recebe o produto escolhido pelo cliente.
+idProduto - Recebe o índice do produto selecionado pelo cliente.
+
+Let:
+moedas - Um array que recebe 6 objetos contendo dois parâmetros, valorMoeda e quantidade.
+produtoValor - Recebe o valor do produto selecionado.
+notasValidas - Contem todas as notas aceita pela v.machine.
+notaInserida - Recebe a nota escolhida pelo cliente.
+troco - Recebe o valor a subtração do valor do produto pela nota inserida.
+qtdMoedas - Recebe as moedas que serão entregues ao cliente como troco.
+numeroMoedas - Divide o troco pelo valor de cada uma das moedas.
+qtdMoedasDisponivel -Recebe a quantidade de moedas disponiveis na máquina depois do troco.
+valorPago - Calcula o valor de cada moeda pela quantidade de moedas disponiveis.
+sobraValor - Desconta o que já foi pago ao cliente e armazena quanto ainda precisa ser pago.
+nota - Recebe o indice de cada nota.
